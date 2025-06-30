@@ -56,8 +56,8 @@ plt.show()
 # 8. Final Insights
 top_store = sales_by_store.idxmax()
 top_sales = sales_by_store.max()
-print(f"\n📈 Store with highest total sales: Store {top_store} with ${top_sales:,.2f}")
+print(f"\n Store with highest total sales: Store {top_store} with ${top_sales:,.2f}")
 if holiday_sales[1] > holiday_sales[0]:
-    print("🎉 Holiday weeks have higher average sales.")
+    print(" Holiday weeks have higher average sales.")
 else:
-    print("📅 Non-holiday weeks have higher average sales.")
+    print(" Non-holiday weeks have higher average sales.")
